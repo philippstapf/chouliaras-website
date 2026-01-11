@@ -16,15 +16,15 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Chouliaras | Immobilien Investment in NRW",
   description:
-    "Evangelos & Alexandros Chouliaras - Ihr Partner für Immobilien Investment in NRW. Wir kaufen und vermieten Wohnimmobilien im Ruhrgebiet und Muensterland.",
+    "Evangelos & Alexandros Chouliaras - Ihr Partner für Immobilien Investment in NRW. Wir kaufen und vermieten Wohnimmobilien im Ruhrgebiet und Münsterland.",
   keywords: [
     "Immobilien",
     "Investment",
     "NRW",
     "Ruhrgebiet",
-    "Muensterland",
+    "Münsterland",
     "Wohnimmobilien",
-    "Mehrfamilienhaeuser",
+    "Mehrfamilienhäuser",
     "Eigentumswohnungen",
   ],
   authors: [

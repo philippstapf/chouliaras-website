@@ -5,7 +5,7 @@ export default function About() {
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-24 items-center">
           <div>
             <span className="text-sm uppercase tracking-widest text-muted-foreground">
-              Ueber uns
+              Über uns
             </span>
             <h2 className="mt-4 font-serif text-3xl font-medium tracking-tight md:text-4xl lg:text-5xl">
               Wer sind wir?
@@ -14,7 +14,7 @@ export default function About() {
 
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Wir sind zwei Brueder und bauen seit 2018 einen langfristigen
+              Wir sind zwei Brüder und bauen seit 2018 einen langfristigen
               Immobilienbestand in NRW auf.
             </p>
 
@@ -25,8 +25,8 @@ export default function About() {
 
             <p className="text-lg leading-relaxed text-muted-foreground">
               Von herausragender Bedeutung ist für uns eine gute Beziehung zu
-              unseren Mietern und deren Anliegen jederzeit schnellstmoeglich zu
-              loesen.
+              unseren Mietern und deren Anliegen jederzeit schnellstmöglich zu
+              lösen.
             </p>
           </div>
         </div>

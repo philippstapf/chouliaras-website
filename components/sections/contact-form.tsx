@@ -19,7 +19,7 @@ export default function ContactForm() {
               Sprechen Sie uns an
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              Sie moechten Ihre Immobilie verkaufen oder haben Fragen zu unserem
+              Sie möchten Ihre Immobilie verkaufen oder haben Fragen zu unserem
               Ankaufsprofil? Wir freuen uns auf Ihre Nachricht.
             </p>
 
@@ -85,7 +85,7 @@ export default function ContactForm() {
               <div className="space-y-2">
                 <Label htmlFor="objectType">Objektart</Label>
                 <Select id="objectType" name="objectType" required>
-                  <option value="">Bitte waehlen</option>
+                  <option value="">Bitte wählen</option>
                   <option value="eigentumswohnung">Eigentumswohnung</option>
                   <option value="mehrfamilienhaus">Mehrfamilienhaus</option>
                   <option value="gewerbe">Gewerbe</option>
@@ -101,7 +101,7 @@ export default function ContactForm() {
                 <Input
                   id="address"
                   name="address"
-                  placeholder="Strasse, PLZ, Ort"
+                  placeholder="Straße, PLZ, Ort"
                 />
               </div>
 
@@ -120,9 +120,9 @@ export default function ContactForm() {
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
-                Mit dem Absenden erklaeren Sie sich mit unserer{" "}
+                Mit dem Absenden erklären Sie sich mit unserer{" "}
                 <a href="/datenschutz" className="underline hover:text-foreground">
-                  Datenschutzerklaerung
+                  Datenschutzerklärung
                 </a>{" "}
                 einverstanden.
               </p>
