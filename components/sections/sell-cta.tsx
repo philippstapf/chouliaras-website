@@ -7,7 +7,7 @@ export default function SellCTA() {
       <div className="absolute inset-0">
         <Image
           src="/Foto 01.02.25, 13 27 55.jpg"
-          alt="Immobilie Herner Strasse"
+          alt="Immobilie Herner Straße"
           fill
           className="object-cover"
           priority
@@ -22,8 +22,8 @@ export default function SellCTA() {
           </h2>
 
           <p className="mt-6 text-lg text-white/80 leading-relaxed">
-            Wir sind stets auf der Suche nach neuen Investitionsmoeglichkeiten.
-            Kontaktieren Sie uns für ein unverbindliches Gespraech.
+            Wir sind stets auf der Suche nach neuen Investitionsmöglichkeiten.
+            Kontaktieren Sie uns für ein unverbindliches Gespräch.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:gap-8">

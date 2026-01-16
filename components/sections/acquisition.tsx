@@ -4,22 +4,22 @@ const criteria = [
   {
     icon: MapPin,
     title: "Immobilien in NRW",
-    description: "Fokus auf Ruhrgebiet & Muensterland",
+    description: "Fokus auf Ruhrgebiet & Münsterland",
   },
   {
     icon: Home,
     title: "Eigentumswohnungen",
-    description: "Einzelne Wohneinheiten zur Kapitalanlage",
+    description: "Einzelne Wohneinheiten",
   },
   {
     icon: Building2,
-    title: "Mehrfamilienhaeuser",
-    description: "Komplette Objekte mit mehreren Einheiten",
+    title: "Mehrfamilienhäuser",
+    description: "Komplette Objekte mit mehreren Wohneinheiten",
   },
   {
     icon: CheckCircle2,
-    title: "Wohnanlagen",
-    description: "Groessere Wohnkomplexe und Portfolios",
+    title: "Wohnanlage",
+    description: "Größere Wohnkomplexe und Portfolios",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function Acquisition() {
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
             Wir konzentrieren uns auf Wohnimmobilien in Nordrhein-Westfalen. Der
-            Objektzustand fliesst in unsere Gesamtbewertung ein &ndash; auch
+            Objektzustand fließt in unsere Gesamtbewertung ein &ndash; auch
             renovierungsbedürftige Immobilien sind für uns interessant.
           </p>
         </div>

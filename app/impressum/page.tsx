@@ -27,7 +27,7 @@ export default function Impressum() {
               d="M10 19l-7-7m0 0l7-7m-7 7h18"
             />
           </svg>
-          Zurueck zur Startseite
+          Zurück zur Startseite
         </Link>
 
         <h1 className="font-serif text-3xl font-medium tracking-tight md:text-4xl lg:text-5xl">
@@ -35,11 +35,11 @@ export default function Impressum() {
         </h1>
 
         <div className="mt-12 prose prose-neutral max-w-none">
-          <h2>Angaben gemaess &sect; 5 TMG</h2>
+          <h2>Angaben gemäß &sect; 5 TMG</h2>
           <p>
             Chouliaras Vermietungs eGbR (GsR 30)
             <br />
-            Herner Strasse 49
+            Herner Straße 49
             <br />
             45657 Recklinghausen
           </p>
@@ -60,12 +60,12 @@ export default function Impressum() {
 
           <h2>Haftungsausschluss</h2>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h2>Urheberrecht</h2>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
         </div>
       </div>

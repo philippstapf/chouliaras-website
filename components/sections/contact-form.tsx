@@ -88,7 +88,7 @@ export default function ContactForm() {
                   <option value="">Bitte wählen</option>
                   <option value="eigentumswohnung">Eigentumswohnung</option>
                   <option value="mehrfamilienhaus">Mehrfamilienhaus</option>
-                  <option value="gewerbe">Gewerbe</option>
+                  <option value="wohnanlage">Wohnanlage</option>
                   <option value="sonstiges">Sonstiges</option>
                 </Select>
               </div>

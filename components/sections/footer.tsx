@@ -10,9 +10,9 @@ export default function Footer() {
               Chouliaras Vermietungs eGbR
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              (GsR 30)
+              GsR 30
               <br />
-              Herner Strasse 49
+              Herner Straße 49
               <br />
               45657 Recklinghausen
             </p>

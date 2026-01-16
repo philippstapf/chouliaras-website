@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Datenschutz | Chouliaras",
-  description: "Datenschutzerklaerung der Chouliaras Vermietungs eGbR",
+  description: "Datenschutzerklärung der Chouliaras Vermietungs eGbR",
 };
 
 export default function Datenschutz() {
@@ -27,29 +27,29 @@ export default function Datenschutz() {
               d="M10 19l-7-7m0 0l7-7m-7 7h18"
             />
           </svg>
-          Zurueck zur Startseite
+          Zurück zur Startseite
         </Link>
 
         <h1 className="font-serif text-3xl font-medium tracking-tight md:text-4xl lg:text-5xl">
-          Datenschutzerklaerung
+          Datenschutzerklärung
         </h1>
 
         <div className="mt-12 prose prose-neutral max-w-none">
           <h2>1. Datenschutz auf einen Blick</h2>
           <h3>Allgemeine Hinweise</h3>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h2>2. Hosting</h2>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h2>3. Allgemeine Hinweise und Pflichtinformationen</h2>
           <h3>Datenschutz</h3>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h3>Hinweis zur verantwortlichen Stelle</h3>
@@ -60,7 +60,7 @@ export default function Datenschutz() {
           <p>
             Chouliaras Vermietungs eGbR (GsR 30)
             <br />
-            Herner Strasse 49
+            Herner Straße 49
             <br />
             45657 Recklinghausen
           </p>
@@ -73,17 +73,17 @@ export default function Datenschutz() {
           <h2>4. Datenerfassung auf dieser Website</h2>
           <h3>Cookies</h3>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h3>Kontaktformular</h3>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
 
           <h2>5. Ihre Rechte</h2>
           <p>
-            {/* Inhalt wird vom Kunden ergaenzt */}
+            {/* Inhalt wird vom Kunden ergänzt */}
           </p>
         </div>
       </div>
