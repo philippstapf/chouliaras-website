@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-neutral-50 to-white" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 py-32 text-center">
-        <blockquote className="space-y-8">
+        <blockquote className="space-y-2">
           <p className="font-serif text-2xl leading-relaxed tracking-tight text-foreground md:text-3xl lg:text-4xl xl:text-5xl">
             &bdquo;Immobilien sind für uns nicht nur eine Form der Anlage,
             sondern sie stellen für uns eine Leidenschaft dar &ndash;
