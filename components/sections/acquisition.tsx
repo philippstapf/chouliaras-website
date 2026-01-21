@@ -1,4 +1,4 @@
-import { MapPin, Home, Building2, CheckCircle2 } from "lucide-react";
+import { MapPin, Home, Building2, Hotel } from "lucide-react";
 
 const criteria = [
   {
@@ -17,7 +17,7 @@ const criteria = [
     description: "Komplette Objekte mit mehreren Wohneinheiten",
   },
   {
-    icon: CheckCircle2,
+    icon: Hotel,
     title: "Wohnanlage",
     description: "Größere Wohnkomplexe und Portfolios",
   },
@@ -35,7 +35,7 @@ export default function Acquisition() {
             Was suchen wir?
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Wir konzentrieren uns auf Wohnimmobilien in Nordrhein-Westfalen. Der
+            Wir konzentrieren uns auf Wohnimmobilien in NRW. Der
             Objektzustand fließt in unsere Gesamtbewertung ein &ndash; auch
             renovierungsbedürftige Immobilien sind für uns interessant.
           </p>

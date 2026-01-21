@@ -1,9 +1,10 @@
 "use client";
 
 const navItems = [
-  { label: "Was sind wir?", href: "#ueber-uns" },
-  { label: "Was suchen wir?", href: "#ankaufsprofil" },
-  { label: "Sprechen Sie uns an", href: "#kontakt" },
+  { label: "Über uns", href: "#ueber-uns" },
+  { label: "Team", href: "#team" },
+  { label: "Ankaufsprofil", href: "#ankaufsprofil" },
+  { label: "Kontakt", href: "#kontakt" },
 ];
 
 export default function Header() {

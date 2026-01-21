@@ -15,7 +15,7 @@ export default function About() {
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
               Wir sind zwei Brüder und bauen seit 2018 einen langfristigen
-              Immobilienbestand in NRW auf.
+              Immobilienbestand in Nordrhein-Westfalen (NRW) auf.
             </p>
 
             <p className="text-lg leading-relaxed text-muted-foreground">

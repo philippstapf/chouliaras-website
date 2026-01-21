@@ -6,21 +6,21 @@ const team = [
     name: "Evangelos Chouliaras",
     role: "Investor & Unternehmensberater",
     image: "/4850132a-14e0-406f-9034-2c16ffcfbe19.jpg",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/evangelos-chouliaras-a6552452",
   },
   {
     name: "Alexandros Chouliaras",
     role: "Investor & Vertriebler",
     image: "/IMG_1158.JPG",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/alexandros-chouliaras-a311b1341",
   },
 ];
 
 export default function Team() {
   return (
-    <section className="bg-neutral-50 py-24 md:py-32">
+    <section className="bg-neutral-50 py-24 md:py-32" id="team">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="text-center">
+        <div>
           <span className="text-sm uppercase tracking-widest text-muted-foreground">
             Team
           </span>
