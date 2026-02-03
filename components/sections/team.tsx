@@ -40,6 +40,7 @@ export default function Team() {
                   src={member.image}
                   alt={member.name}
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
