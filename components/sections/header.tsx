@@ -35,7 +35,7 @@ export default function Header() {
             }}
             className="font-serif text-lg font-medium tracking-tight cursor-pointer"
           >
-            Chouliaras
+            Chouliaras Immobilien
           </a>
 
           {/* Desktop Navigation */}
