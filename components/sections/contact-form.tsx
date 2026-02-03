@@ -56,11 +56,21 @@ export default function ContactForm() {
             <div className="mt-10 space-y-4">
               <p className="text-sm text-muted-foreground">
                 <span className="font-medium text-foreground">E-Mail:</span>{" "}
-                info@chouliaras-immobilien.de
+                <a
+                  href="mailto:info@chouliaras-immobilien.de"
+                  className="hover:text-foreground transition-colors underline underline-offset-2"
+                >
+                  info@chouliaras-immobilien.de
+                </a>
               </p>
               <p className="text-sm text-muted-foreground">
                 <span className="font-medium text-foreground">Telefon:</span>{" "}
-                +49 176 57 99 56 44
+                <a
+                  href="tel:+4917657995644"
+                  className="hover:text-foreground transition-colors"
+                >
+                  +49 176 57 99 56 44
+                </a>
               </p>
             </div>
           </div>

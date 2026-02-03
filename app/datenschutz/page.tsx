@@ -130,10 +130,19 @@ export default function Datenschutz() {
             </div>
 
             <div className="space-y-4 pl-14">
+              <div className="bg-stone-100 rounded-lg p-5 mb-4">
+                <p className="font-medium text-stone-900 mb-1">Vercel Inc.</p>
+                <p className="text-stone-600 text-sm">
+                  440 N Barranca Ave #4133, Covina, CA 91723, USA
+                  <br />
+                  <span className="text-stone-500">Serverstandort:</span>{" "}
+                  <strong>Deutschland (Frankfurt)</strong>
+                </p>
+              </div>
               <p className="text-stone-700 leading-relaxed">
-                Diese Website wird extern gehostet. Die personenbezogenen Daten,
-                die auf dieser Website erfasst werden, werden auf den Servern des
-                Hosters gespeichert. Hierbei kann es sich um IP-Adressen,
+                Diese Website wird bei Vercel gehostet. Die personenbezogenen
+                Daten, die auf dieser Website erfasst werden, werden auf Servern
+                in Deutschland gespeichert. Hierbei kann es sich um IP-Adressen,
                 Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten,
                 Kontaktdaten, Namen, Websitezugriffe und sonstige Daten handeln.
               </p>
@@ -143,6 +152,18 @@ export default function Datenschutz() {
                 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen
                 und effizienten Bereitstellung unseres Online-Angebots durch
                 einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
+              </p>
+              <p className="text-stone-700 leading-relaxed">
+                Weitere Informationen finden Sie in der Datenschutzerklärung von
+                Vercel:{" "}
+                <a
+                  href="https://vercel.com/legal/privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-stone-900 transition-colors"
+                >
+                  https://vercel.com/legal/privacy-policy
+                </a>
               </p>
             </div>
           </section>
