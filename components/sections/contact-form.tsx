@@ -180,6 +180,27 @@ export default function ContactForm() {
                   />
                 </div>
 
+                <div className="flex items-start gap-3">
+                  <input
+                    type="checkbox"
+                    id="privacy"
+                    name="privacy"
+                    required
+                    className="mt-1 h-4 w-4 rounded border-neutral-300 text-neutral-900 focus:ring-neutral-500 cursor-pointer"
+                  />
+                  <label htmlFor="privacy" className="text-sm text-muted-foreground cursor-pointer">
+                    Ich habe die{" "}
+                    <a
+                      href="/datenschutz"
+                      target="_blank"
+                      className="underline hover:text-foreground"
+                    >
+                      Datenschutzerklärung
+                    </a>{" "}
+                    gelesen und bin mit der Verarbeitung meiner Daten einverstanden.
+                  </label>
+                </div>
+
                 {status === "error" && (
                   <p className="text-sm text-destructive text-center">
                     Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie
@@ -196,17 +217,6 @@ export default function ContactForm() {
                 >
                   {status === "sending" ? "Wird gesendet..." : "Nachricht senden"}
                 </Button>
-
-                <p className="text-xs text-muted-foreground text-center">
-                  Mit dem Absenden erklären Sie sich mit unserer{" "}
-                  <a
-                    href="/datenschutz"
-                    className="underline hover:text-foreground"
-                  >
-                    Datenschutzerklärung
-                  </a>{" "}
-                  einverstanden.
-                </p>
               </form>
             )}
           </div>
