@@ -28,11 +28,11 @@ export default function SellCTA() {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:gap-8">
             <a
-              href="mailto:info.chouliaras@immo"
+              href="mailto:info@chouliaras-immobilien.de"
               className="inline-flex items-center gap-3 text-white hover:text-white/80 transition-colors"
             >
               <Mail className="h-5 w-5" />
-              <span className="text-base">info.chouliaras@immo</span>
+              <span className="text-base">info@chouliaras-immobilien.de</span>
             </a>
 
             <a
